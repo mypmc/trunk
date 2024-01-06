@@ -3,10 +3,10 @@ load("@bazel_tools//tools/build_defs/repo:utils.bzl", "maybe")
 
 _RUST_EDITION = "2021"
 
-_RUST_STABLE_VERSION = "1.72.1"
+_RUST_STABLE_VERSION = "1.75.0"
 
 # https://github.com/oxalica/rust-overlay/tree/master/manifests/nightly
-_RUST_NIGHTLY_VERSION = "nightly/2023-09-28"
+_RUST_NIGHTLY_VERSION = "nightly/2024-01-06"
 
 _GO_VERSION = "1.21.1"
 
@@ -89,8 +89,8 @@ _http_archives = {
         ],
     },
     "rules_rust": {
-        "sha256": "c46bdafc582d9bd48a6f97000d05af4829f62d5fee10a2a3edddf2f3d9a232c1",
-        "urls": ["https://github.com/bazelbuild/rules_rust/releases/download/0.28.0/rules_rust-v0.28.0.tar.gz"],
+        "sha256": "a761d54e49db06f863468e6bba4a13252b1bd499e8f706da65e279b3bcbc5c52",
+        "urls": ["https://github.com/bazelbuild/rules_rust/releases/download/0.36.2/rules_rust-v0.36.2.tar.gz"],
     },
     "io_bazel_rules_go": {
         "sha256": "91585017debb61982f7054c9688857a2ad1fd823fc3f9cb05048b0025c47d023",
